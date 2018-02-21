@@ -11,8 +11,8 @@
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
           <style>
               .jumbotron { text-align:center; }
-              body { background: linear-gradient(to bottom, azure , skyblue) ; font-family:"Verdana"; }
-              .border { border-style: solid  ; border-width: 50px ;}
+              body { background: linear-gradient(to bottom, azure , skyblue) ; font-family:"Verdana";  }
+              #borderimg { border: 30px solid transparent; padding: 15px ; border-image: url(http://www.textures4photoshop.com/tex/thumbs/grunge-vignette-border-png-transparent-for-photoshop-1093.png) 40 round; }
           </style>
       </head>
       <body>
@@ -39,7 +39,7 @@
           
         <div class="container">
              
-          <div class="row">
+          <div class="row" id="borderimg">
             <div class="col-md-4" style="background-color:lavender;">
               <center>
                 <img src="https://fthmb.tqn.com/Xi0o-nU1CWYu4mObrPvSLiy5w_8=/768x0/filters:no_upscale()/hippoGE-5943d0e45f9b58d58ab484b7.jpg" class="img-thumbnail" alt="Hippo Running" width=300px >
@@ -62,17 +62,35 @@
         </div>
         <br>
         <div class="container" >
-        <div class="border" style="background-color: aquamarine;" >
+          <div style="background-color: lightcyan; " id="borderimg" >
+            <br>
             <center>
-                <h3> More webpages by me</h3>
-                <a href="https://ychammas.github.io/ecs21718/HTML/table1.html" class="btn btn-primary" role="button" >
-                    My Tables
-                </a> 
-                <a href="https://ychammas.github.io/ecs21718/HTML/practiceCSS.html" class="btn btn-primary" role="button" >
-                    About Rosa Parks
-                </a>
+            <h3>Eating Habits of the Hippopotamus</h3>
+             <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Click me!</button>
+               <div id="demo" class="collapse">
+                 Hippos are omnivorous animals, since they eat meat and plants.
+                 Hippos do not eat when they are in the water, and tend to eat short grasses found on land.
+                 Hippos spend about 5 or more hours every evening to find food to eat. 
+                 There are some reports about hippos practicing cannibalism when food is scarce.
             </center>
-        </div>  
+            <br>
+          </div>
+        </div>
+        <br>
+        <div class="container" >
+          <div style="background-color: lightcyan;" id="borderimg">
+            <br>
+              <center>
+                  <h3> More webpages by me</h3>
+                  <a href="https://ychammas.github.io/ecs21718/HTML/table1.html" class="btn btn-primary" role="button" >
+                    My Tables
+                  </a> 
+                  <a href="https://ychammas.github.io/ecs21718/HTML/practiceCSS.html" class="btn btn-primary" role="button" >
+                    About Rosa Parks
+                  </a>
+              </center>
+           <br>
+          </div>  
         </div>
           
       </body>
