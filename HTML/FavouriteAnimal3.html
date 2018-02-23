@@ -16,6 +16,7 @@
               .carousel-inner img { width: 100%; height: 100%; }
           </style>
       </head>
+      <!-- scrollspy -->
       <body data-spy="scroll" data-target=".navbar" data-offset="50">
          <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
            <ul class="navbar-nav">
@@ -32,6 +33,7 @@
                 <a class="nav-link" href="#section4">My Past Projects</a>
           </ul>
        </nav>
+       <!-- info navbar -->
         <div class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom text-info">
           More about Hippos!
            <ul class="navbar-nav">
@@ -47,12 +49,13 @@
            </ul>
           </div>
           
-          
+          <!-- Jumbotron -->
             <div class="jumbotron jumbotron-fluid, bg-light text-info" id="section1"> 
               <h1>Hippopotamus</h1>
               <h2 class="text-secondary">Hippopotamus amphibius</h2>
           </div>
-          
+         
+        <!-- info containers -->
         <div class="container" >
              
           <div class="row" id="borderimg">
@@ -77,6 +80,7 @@
           </div>
         </div>
         <br>
+        <!-- collaspe -->
         <div class="container" id="section2" >
           <div style="background-color: lightcyan; " id="borderimg" >
             <br>
@@ -95,56 +99,60 @@
         <br>
        
        <!-- The carousel --> 
-    <div id="borderimg">
-    <div id="section3" >
-    <div id="demo" class="carousel slide" data-ride="carousel" width="300px" height="300px">
-     <ul class="carousel-indicators">
-       <li data-target="#demo" data-slide-to="0" class="active"></li>
-       <li data-target="#demo" data-slide-to="1"></li>
-       <li data-target="#demo" data-slide-to="2"></li>
-      </ul>
-  
- 
-    <div class="carousel-inner">
-    <div class="carousel-item active">
-         <img src="https://www.roadsideamerica.com/attract/images-icon/tx/TXHUThippo_boulter_480x320.jpg" alt="Hippo" class="img-thumbnail" >
-    </div>
-    <div class="carousel-item">
-          <img src="https://www.gannett-cdn.com/-mm-/dd08a44f40834873b9994daf7e6db154b653d1f4/c=218-0-2213-1995&r=x203&c=200x200/local/-/media/2017/10/31/USATODAY/USATODAY/636450628098392447-103117fiona-henry-hippo.jpg" alt="Hippos" class="img-thumbnail" >
-     </div>
-     <div class="carousel-item">
-          <img src="http://www.safetravelguide.net/wp-content/uploads/2018/01/Hippo-200x200.jpg" alt="Hippo" class="img-thumbnail">
+    <div class="col-md-9">
+    <div id="borderimg" >
+      <div id="section3" >
+        <div id="hippoimg" class="carousel slide" data-ride="carousel" >
+           <ul class="carousel-indicators">
+             <li data-target="#hippoimg" data-slide-to="0" class="active"></li>
+             <li data-target="#hippoimg" data-slide-to="1"></li>
+             <li data-target="#hippoimg" data-slide-to="2"></li>
+             <li data-target="#hippoimg" data-slide-to="3"></li>
+          </ul>
+         <div class="carousel-inner">
+         <div class="carousel-item active">
+             <img src="https://www.roadsideamerica.com/attract/images-icon/tx/TXHUThippo_boulter_480x320.jpg" alt="Hippo" class="img-thumbnail" >
+         </div>
+         <div class="carousel-item">
+           <img src="https://www.gannett-cdn.com/-mm-/dd08a44f40834873b9994daf7e6db154b653d1f4/c=218-0-2213-1995&r=x203&c=200x200/local/-/media/2017/10/31/USATODAY/USATODAY/636450628098392447-103117fiona-henry-hippo.jpg" alt="Hippos" class="img-thumbnail" >
+           </div>
+           <div class="carousel-item">
+           <img src="http://www.safetravelguide.net/wp-content/uploads/2018/01/Hippo-200x200.jpg" alt="Hippos" class="img-thumbnail">
+           </div>
+           <div class="carousel-item">
+           <img src="https://i.pinimg.com/236x/b9/27/38/b9273802d2787b031aa52c97d279cc4a--first-baby-the-zoo.jpg" alt="Hippos" class="img-thumbnail" >
+           </div>
+          </div>
+        </div>
       </div>
-      </div>
-      </div>
-      </div>
-  
- 
-         <a class="carousel-control-prev" href="#demo" data-slide="prev">
+   </div>
+         <a class="carousel-control-prev" href="#hippoimg" data-slide="prev">
            <span class="carousel-control-prev-icon"></span>
          </a>
-         <a class="carousel-control-next" href="#demo" data-slide="next">
+         <a class="carousel-control-next" href="#hippoimg" data-slide="next">
            <span class="carousel-control-next-icon"></span>
         </a>
-       </div>
+        </div>
         <br>
         
-      
+      <!-- buttons here --> 
         <div class="container" id="section4" >
           <div style="background-color: lightcyan;" id="borderimg">
             <br>
               <center>
                   <h3> More webpages by me</h3>
-                  <a href="https://ychammas.github.io/ecs21718/HTML/table1.html" class="btn btn-primary" role="button" data-toggle="tooltip" data-placement="left" title="These are tables that show my schedule" >
-                    My Tables
+                  <a href="https://ychammas.github.io/ecs21718/HTML/table1.html" class="btn btn-primary" role="button" data-toggle="tooltip" data-placement="left" title="These are tables that show my daily schedule" >
+                    My Tables Page
                   </a> 
                   <a href="https://ychammas.github.io/ecs21718/HTML/practiceCSS.html" class="btn btn-primary" role="button" data-toggle="tooltip" data-placement="right" title="This page is about Rosa Parks" >
-                    About Rosa Parks
+                    About Rosa Parks 
                   </a>
               </center>
            <br>
           </div>  
         </div>
+        
+       <!-- script for tooltip -->
         <script>
           $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();   
