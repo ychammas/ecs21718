@@ -1,0 +1,154 @@
+<!DOCTYPE html> 
+  <html>
+      <head>
+          <title>My Favourite Animal</title>
+          <link rel="stylesheet" href="style.css">
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+          <style>
+              .jumbotron { text-align:center; }
+              body { background: linear-gradient(to bottom, azure , skyblue) ; font-family:"Verdana";  }
+              #borderimg { border: 30px solid transparent; padding: 15px ; border-image: url(http://www.textures4photoshop.com/tex/thumbs/grunge-vignette-border-png-transparent-for-photoshop-1093.png) 40 round; }
+              .carousel-inner img { width: 100%; height: 100%; }
+          </style>
+      </head>
+      <body data-spy="scroll" data-target=".navbar" data-offset="50">
+         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
+           <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#section1">About The Hippo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section2">Hippo Eating Habits</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="#section3">More Images</a>
+             </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section4">My Past Projects</a>
+          </ul>
+       </nav>
+        <div class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom text-info">
+          More about Hippos!
+           <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://en.wikipedia.org/wiki/Hippopotamus">Wikipedia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://www.awf.org/wildlife-conservation/hippopotamus">African Wildlife Foundation</a>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link" href="https://www.nationalgeographic.com/animals/mammals/h/hippopotamus/"> National Geogrphic </a>
+            </li>
+           </ul>
+          </div>
+          
+          
+            <div class="jumbotron jumbotron-fluid, bg-light text-info" id="section1"> 
+              <h1>Hippopotamus</h1>
+              <h2 class="text-secondary">Hippopotamus amphibius</h2>
+          </div>
+          
+        <div class="container" >
+             
+          <div class="row" id="borderimg">
+            <div class="col-md-4" style="background-color:lavender;">
+              <center>
+                <img src="https://fthmb.tqn.com/Xi0o-nU1CWYu4mObrPvSLiy5w_8=/768x0/filters:no_upscale()/hippoGE-5943d0e45f9b58d58ab484b7.jpg" class="img-thumbnail" alt="Hippo Running" width=300px >
+                <p>This is a hippo running in the wild. Hippos generally live in East Africa, and tend to live in lakes, rivers, and swamps. Hippos eat aquatic plants, like short green shoots and reeds, and creeping grasses.</p>
+              </center>  
+            </div>
+            <div class="col-md-4" style="background-color:lavenderblush;">  
+              <center>
+                <img src="https://media1.britannica.com/eb-media/27/183427-004-3764B483.jpg" class="img-thumbnail" alt="Two Hippos" width=300px >
+                <p>This is a hippo swimming in the water. Hippos are the third largest living land animals. Hippos spend alot of time in the water, since it can cool them down in the hot swamps of Sub-Sahara Africa.</p>
+              </center>
+            </div>
+            <div class="col-md-4" style="background-color:lavender;">
+              <center>
+                <img src="http://library.sandiegozoo.org/factsheets/hippo/images/common_hippo.jpg" class="img-thumbnail" alt="Hippo Underwater" width=300px >
+                <p>This is a hippo swimming underwater. Hippos can hold their breaths underwater for 5 minutes, then they have to come back up for air. Hippos bob up and down and it allows them to sleep underwater.</p>
+              </center>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="container" id="section2" >
+          <div style="background-color: lightcyan; " id="borderimg" >
+            <br>
+            <center>
+            <h3>Eating Habits of the Hippopotamus</h3>
+             <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collaspe">Click me!</button>
+               <div id="collaspe" class="collapse">
+                 Hippos are omnivorous animals, since they eat meat and plants.
+                 Hippos do not eat when they are in the water, and tend to eat short grasses found on land.
+                 Hippos spend about 5 or more hours every evening to find food to eat. 
+                 There are some reports about hippos practicing cannibalism when food is scarce.
+            </center>
+            <br>
+          </div>
+        </div>
+        <br>
+       
+       <!-- The carousel --> 
+    <div id="borderimg">
+    <div id="section3" >
+    <div id="demo" class="carousel slide" data-ride="carousel" width="300px" height="300px">
+     <ul class="carousel-indicators">
+       <li data-target="#demo" data-slide-to="0" class="active"></li>
+       <li data-target="#demo" data-slide-to="1"></li>
+       <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+  
+ 
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+         <img src="https://www.roadsideamerica.com/attract/images-icon/tx/TXHUThippo_boulter_480x320.jpg" alt="Hippo" class="img-thumbnail" >
+    </div>
+    <div class="carousel-item">
+          <img src="https://www.gannett-cdn.com/-mm-/dd08a44f40834873b9994daf7e6db154b653d1f4/c=218-0-2213-1995&r=x203&c=200x200/local/-/media/2017/10/31/USATODAY/USATODAY/636450628098392447-103117fiona-henry-hippo.jpg" alt="Hippos" class="img-thumbnail" >
+     </div>
+     <div class="carousel-item">
+          <img src="http://www.safetravelguide.net/wp-content/uploads/2018/01/Hippo-200x200.jpg" alt="Hippo" class="img-thumbnail">
+      </div>
+      </div>
+      </div>
+      </div>
+  
+ 
+         <a class="carousel-control-prev" href="#demo" data-slide="prev">
+           <span class="carousel-control-prev-icon"></span>
+         </a>
+         <a class="carousel-control-next" href="#demo" data-slide="next">
+           <span class="carousel-control-next-icon"></span>
+        </a>
+       </div>
+        <br>
+        
+      
+        <div class="container" id="section4" >
+          <div style="background-color: lightcyan;" id="borderimg">
+            <br>
+              <center>
+                  <h3> More webpages by me</h3>
+                  <a href="https://ychammas.github.io/ecs21718/HTML/table1.html" class="btn btn-primary" role="button" data-toggle="tooltip" data-placement="left" title="These are tables that show my schedule" >
+                    My Tables
+                  </a> 
+                  <a href="https://ychammas.github.io/ecs21718/HTML/practiceCSS.html" class="btn btn-primary" role="button" data-toggle="tooltip" data-placement="right" title="This page is about Rosa Parks" >
+                    About Rosa Parks
+                  </a>
+              </center>
+           <br>
+          </div>  
+        </div>
+        <script>
+          $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+            });
+      </script>  
+      </body>
+  </html>
