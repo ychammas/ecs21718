@@ -1,1 +1,2 @@
-body { background: linear-gradient(to right, azure , skyblue, azure) ; font-family:"Verdana"; }
+body { background: linear-gradient(to right, azure , skyblue,azure) ; font-family:"Verdana"; }
+#borderimg { border: 30px solid transparent ; padding :15px; border-image : url(http://www.textures4photoshop.com/tex/thumbs/grunge-vignette-border-png-transparent-for-photoshop-1093.png) 40 round }
